@@ -1,0 +1,28 @@
+{
+  "name": "graphql-movie-nomadcoders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qnrjs42/graphql-movie-nomadcoders.git"
+  },
+  "author": "qnrjs42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qnrjs42/graphql-movie-nomadcoders/issues"
+  },
+  "homepage": "https://github.com/qnrjs42/graphql-movie-nomadcoders#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
