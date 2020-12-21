@@ -42,3 +42,4 @@ export const addMovie = (name: string, score: number) => {
   movies.push(newMovie);
   return newMovie
 }
+
