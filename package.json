@@ -19,6 +19,7 @@
   "homepage": "https://github.com/qnrjs42/graphql-movie-nomadcoders#readme",
   "dependencies": {
     "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.6"
   },
   "devDependencies": {
