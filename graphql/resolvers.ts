@@ -1,8 +1,11 @@
 import { getMovies } from './db'; 
-
-
-
 // import { getById, getMovies, addMovie, deleteMovie } from "./db";
+
+const resolvers = {
+  Query: {
+    movies: (_, { rating, limit }) => getMovies(limit, rating)
+  }
+};
 
 
 // const resolvers = {
